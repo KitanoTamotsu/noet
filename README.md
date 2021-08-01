@@ -1,5 +1,8 @@
 ## 　　Lesson32.　ListFilterを使ってみる
 #### 開発メモ
+ワークフロー
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758117-5a334898-0378-4357-a226-352759adbde7.png">
+
 ### 1.LitsFilterってなんだろう
 　ListFilterもScriptFilter同様にAlfredの出力を行うものです
 <br>　Alfredに何か入力したら、それに反応して表示される行フォーマットのあれです
@@ -20,9 +23,11 @@
 <br>　出力フォーマットの要素で言えば、title,subtitle,arg,iconをGUIで設定すればOK　
 <br>　今回argについては任意の数字を設定していて、後続で稼働する
 <br>　ScriptFilterの振り分けをしています
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758138-c28b6292-3230-46d4-a343-51b262078ad5.png">
 ### 4.ScriptFilterの振り分け
 　後続のScriptFilterは、それぞれソースコードが変わるので個々に作成しています
 <br>　そのためConditionalユーティリティでフローを分岐させています
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758162-9d6aecf2-778a-4211-952a-b34c8ba47df5.png">
 <br>　ArgandValsユーティリティがあるのは、標準出力をクリアもしくは設定して
 <br>　ScriptFilterが表示される際のデフォルト文言をコントロールするためのです
 ### 4.ScriptFilter
@@ -32,6 +37,11 @@
 <br>　・AlfredのJson出力フォーマットを作成
 <br>　という感じ
 <br>　なお、ヘルプセンターについては、ヒアドキュメントで作っています
+<br>　サンプルとして検索とヘルプのScriptFilterを載せます
+<br>　ScriptFilter（検索）
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758199-6bad5c89-7ec6-4db0-8b71-f997b665c897.png">
+<br>　ScriptFilter（ヘルプセンター）
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758237-d8ad2d32-7e39-4e89-8d1c-158daa409994.png">
 #### 背景
 　ListFilterのサンプルを作ろうと試行錯誤しました
 <br>　定例作業的なものだと、あまりに個人的なローカルサンプルになりだし
