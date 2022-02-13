@@ -1,4 +1,3 @@
-## 　　Lesson32.　ListFilterを使ってみる
 #### 開発メモ
 ワークフロー
 <br><img width="600" src="https://user-images.githubusercontent.com/40127279/127758117-5a334898-0378-4357-a226-352759adbde7.png">
